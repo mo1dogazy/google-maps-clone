@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/2749090/pexels-photo-2749090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#maps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#container {
+  margin: auto;
+  max-width: 1240px;
+  margin: 50px 250px;
+}
+
+#map,
+#map2,
+#map3 {
+  margin-bottom: 50px;
+  height: 100vh;
+  width: 70vw;
+  margin: auto;
+}
