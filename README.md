@@ -1,1 +1,1 @@
-# [google-maps-clone](https://moldogazy.github.io/google-maps-clone/)
+# [google-maps-clone](https://mo1dogazy.github.io/google-maps-clone/)
